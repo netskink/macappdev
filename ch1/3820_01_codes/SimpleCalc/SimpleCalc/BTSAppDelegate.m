@@ -73,7 +73,7 @@
     // If the operation was multiplicaiton, then
     // multiply the two values
     else if ([@"^" isEqual: l_operation]) {
-        NSBeep();
+        //NSBeep();
         l_result = pow(l_value1,l_value2);
     }
     // The operation must have been division, so
